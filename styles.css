@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#hero {
+    background-image: url(Images/Beach-Transition.png);
+    background-repeat: no-repeat;
+    height: auto;
+
+}
+
+#logo {
+    width: 2rem;
+}
+
+ul {
+    display: flex;
+
+}
+
+li {
+    text-decoration: none;
+
+}
