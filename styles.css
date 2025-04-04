@@ -11,6 +11,7 @@ body {
 /*header*/
 header{
     padding-left: 2rem;
+    color: rgb(255, 255, 255);
 }
 
 #moments{
@@ -38,14 +39,14 @@ header{
 
 /*nav bar*/
 #navigation{
-
+    justify-content: flex-end;
+    padding-right: 2rem;
 }
 ul {
     display: flex;
     list-style-type: none;
     gap: 2rem;
     padding-top: 2rem;
-
 }
 a:link{
     text-decoration: none;
@@ -56,26 +57,78 @@ a:hover{
 }
 
 /*first section*/
-section {
-
-}
-
 img{
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 8px;
 }
-
 figure{
-    padding: 1rem;
+    padding: 0.5rem;
+}
+figcaption {
+
 }
 
-/*First section*/
+/*hero images*/
 #paradise {
     padding: 1rem;
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-
+    gap: 1rem;
 }
+#white-beach{
+    background-image: url(Images/white-sand-beach.jpg);
+    border-radius: 1rem;
+    height: 300px;
+    
+}
+#white-beach figcaption{
+    background-color: black;
+    color: white;
+    opacity: 60%;
+    padding: 2rem;
+    margin: 0;
+    border-radius: 1rem 1rem 0 0;
+}
+
+#pool {
+    background-image: url(Images/architecture-blue-water-buildings-261102.jpg);
+    border-radius: 1rem;
+    max-width: 100%;
+}
+#pool figcaption{
+    background-color: black;
+    color: white;
+    opacity: 60%;
+    padding: 2rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+#spa {
+    background-image: url(Images/pexels-olly-3757657.jpg);
+    border-radius: 1rem;
+    max-width: 100%;
+}
+#spa figcaption {
+    background-color: black;
+    color: white;
+    opacity: 60%;
+    padding: 2rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+#chef {
+    background-image: url(Images/noz-thumb.jpg);
+    border-radius: 1rem;
+    max-width: 100%;
+}
+#chef figcaption {
+    background-color: black;
+    color: white;
+    opacity: 60%;
+    padding: 2rem;
+    border-radius: 1rem 1rem 0 0;
+}
+/*end*/
 
 @media  and (max-width:816px) {
     .paradise {
@@ -86,6 +139,7 @@ figure{
 
 /*Second Section*/
 #luxury {
+    padding: 2rem 0 5rem 2rem;
 }
 
 /*Footer*/
