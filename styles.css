@@ -4,28 +4,47 @@
 }
 
 body {
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(237, 248, 250);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /*header*/
-/*
+header{
+    padding-left: 2rem;
+}
+
+#moments{
+    padding-left: 2rem;
+    padding-top: 15rem;
+}
+
 #hero {
-    background-image: url(Images/Beach-Transition.png);
+    background-image: url(Images/hero.png);
     background-repeat: no-repeat;
     height: auto;
 
 }
-*/
-#logo {
-    width: 2rem;
+
+#Logo {
+    max-width: 500px;
+    padding: 2rem;
+    padding-top: 8rem;
 }
+
+header{
+    color: rgb(31, 31, 41)
+    font-weight: 100;
+}
+
 /*nav bar*/
+#navigation{
+
+}
 ul {
-    border: 2px solid red;
     display: flex;
     list-style-type: none;
     gap: 2rem;
+    padding-top: 2rem;
 
 }
 a:link{
@@ -36,29 +55,42 @@ a:hover{
     color: rgb(84, 168, 204);
 }
 
-/*section*/
+/*first section*/
 section {
-    border: 2px solid greenyellow;
+
 }
 
 img{
-    max-width: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+figure{
+    padding: 1rem;
 }
 
 /*First section*/
 #paradise {
-    border: 2px solid red;
-    display: grid;
+    padding: 1rem;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+@media  and (max-width:816px) {
+    .paradise {
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 /*Second Section*/
 #luxury {
-    border: 2px solid orange;
 }
 
 /*Footer*/
 footer{
-    background-color: black;
+    background-color: rgb(178, 136, 147);
     color: rgb(255, 255, 255);
-    padding: 5rem;
+    padding: 4rem;
 }
