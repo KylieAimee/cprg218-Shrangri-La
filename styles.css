@@ -3,23 +3,53 @@
     margin: 0;
 }
 
+body {
+    background-color: rgb(216, 216, 216);
+}
+
+/*header*/
+/*
 #hero {
     background-image: url(Images/Beach-Transition.png);
     background-repeat: no-repeat;
     height: auto;
 
 }
-
+*/
 #logo {
     width: 2rem;
 }
-
+/*nav bar*/
 ul {
+    border: 2px solid red;
     display: flex;
+    list-style-type: none;
+    gap: 2rem;
+
 
 }
-
-li {
+a:link{
     text-decoration: none;
+}
 
+/*section*/
+section {
+    border: 2px solid greenyellow;
+}
+
+/*First section*/
+#paradise {
+    border: 2px solid red;
+}
+
+/*Second Section*/
+#luxury {
+    border: 2px solid orange;
+}
+
+/*Footer*/
+footer{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 5rem;
 }
