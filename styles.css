@@ -27,7 +27,6 @@ ul {
     list-style-type: none;
     gap: 2rem;
 
-
 }
 a:link{
     text-decoration: none;
@@ -40,6 +39,10 @@ a:hover{
 /*section*/
 section {
     border: 2px solid greenyellow;
+}
+
+img{
+    max-width: 300px;
 }
 
 /*First section*/
