@@ -5,6 +5,7 @@
 
 body {
     background-color: rgb(216, 216, 216);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*header*/
@@ -30,6 +31,10 @@ ul {
 }
 a:link{
     text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(84, 168, 204);
 }
 
 /*section*/
@@ -40,6 +45,7 @@ section {
 /*First section*/
 #paradise {
     border: 2px solid red;
+    display: grid;
 }
 
 /*Second Section*/
