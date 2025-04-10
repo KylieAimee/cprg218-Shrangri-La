@@ -7,4 +7,10 @@ fetch(
     console.log(data);
     console.log(data.main.temp);
     weather.textContent = "Cancun, Mexico "+data.main.temp+"\u00B0C";
+
+    const weathericon = "https://openweathermap.org/img/wn/"+data.weather[0].icon+"@2x.png";
+    console.log(weathericon);
+
+    icon.src = weathericon;
+    icon.alt = data.weather[0].description;
 });

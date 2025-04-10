@@ -78,6 +78,7 @@ figcaption {
 #white-beach{
     background-image: url(Images/white-sand-beach.jpg);
     border-radius: 1rem;
+    max-width: 500px;
     height: 300px;
     
 }
@@ -138,9 +139,25 @@ figcaption {
 }
 
 /*Second Section*/
-#luxury {
-    padding: 2rem 0 5rem 2rem;
+#luxury-rooms {
+    padding: 5rem 0 0 2rem;
 }
+
+#luxury {
+    padding: 2rem 2rem 5rem 2rem;
+    display: flex;
+}
+
+details {
+    padding-bottom: 1rem;
+}
+details summary{
+    background-color: rgb(178, 136, 147);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
 
 /*Footer*/
 footer{
