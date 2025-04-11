@@ -3,47 +3,44 @@
     margin: 0;
 }
 
+
+/*apply to whole page*/
 body {
     background-color: rgb(237, 248, 250);
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 /*header*/
 header{
     padding-left: 2rem;
     color: rgb(255, 255, 255);
 }
-
 #moments{
     padding-left: 2rem;
     padding-top: 15rem;
 }
-
 #hero {
     background-image: url(Images/hero.png);
     background-repeat: no-repeat;
     height: auto;
-
 }
-
 #Logo {
     max-width: 500px;
     padding: 2rem;
-    padding-top: 8rem;
+    padding-top: 6rem;
 }
-
 header{
     color: rgb(31, 31, 41)
     font-weight: 100;
 }
 
+
 /*nav bar*/
-#navigation{
-    justify-content: flex-end;
-    padding-right: 2rem;
-}
 ul {
     display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
     list-style-type: none;
     gap: 2rem;
     padding-top: 2rem;
@@ -56,6 +53,23 @@ a:hover{
     color: rgb(84, 168, 204);
 }
 
+button{
+    background: none;
+        border: none;
+        color: white;
+        font-size: 600%;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: auto;
+        margin-right: 2rem;
+        display:none;
+        
+}
+button:focus{
+    color: rgb(84, 168, 204);
+}
+
+
 /*first section*/
 img{
     max-width: 100%;
@@ -67,6 +81,7 @@ figure{
 figcaption {
 
 }
+
 
 /*hero images*/
 #paradise {
@@ -131,6 +146,7 @@ figcaption {
 }
 /*end*/
 
+
 @media  and (max-width:816px) {
     .paradise {
         display: inline-grid;
@@ -138,16 +154,15 @@ figcaption {
     }
 }
 
+
 /*Second Section*/
 #luxury-rooms {
     padding: 5rem 0 0 2rem;
 }
-
 #luxury {
     padding: 2rem 2rem 5rem 2rem;
     display: flex;
 }
-
 details {
     padding-bottom: 1rem;
 }
@@ -165,3 +180,43 @@ footer{
     color: rgb(255, 255, 255);
     padding: 4rem;
 }
+
+
+/*Small Screen*/
+@media screen and (max-width: 816px){
+    button{
+        display: block;
+    }
+    nav{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+    
+        background-color: rgb(45, 43, 63);
+        flex-direction: column;
+    
+        display: none;
+    }
+    nav.active{
+        display: flex;
+        flex-direction: column;
+    }
+    nav li{
+        display: block;
+        text-align: center;
+        margin-right: 0;
+    }
+    nav li a{
+       display: block;
+       padding: 1rem;
+    }
+
+    #logo{
+        padding-top: 0;
+    }
+}
+
+
+
