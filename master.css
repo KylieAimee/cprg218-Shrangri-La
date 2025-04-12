@@ -40,8 +40,8 @@ header{
     padding-top: 3rem;
 }
 
-/*nav bar*/
 
+/*nav bar*/
 ul {
     display: flex;
     justify-content: flex-end;
@@ -76,110 +76,6 @@ button{
 }
 button:focus{
     color: rgb(84, 168, 204);
-}
-
-
-/*first section*/
-img{
-    max-width: 100%;
-    border-radius: 8px;
-}
-figure{
-    padding: 0.5rem;
-}
-figcaption {
-
-}
-
-
-/*hero images*/
-#paradise {
-    padding: 1rem;
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1rem;
-}
-#white-beach{
-    background-image: url(Images/white-sand-beach.jpg);
-    border-radius: 1rem;
-    max-width: 500px;
-    height: 300px;
-    
-}
-#white-beach figcaption{
-    background-color: black;
-    color: white;
-    opacity: 60%;
-    padding: 2rem;
-    margin: 0;
-    border-radius: 1rem 1rem 0 0;
-}
-
-#pool {
-    background-image: url(Images/architecture-blue-water-buildings-261102.jpg);
-    border-radius: 1rem;
-    max-width: 100%;
-}
-#pool figcaption{
-    background-color: black;
-    color: white;
-    opacity: 60%;
-    padding: 2rem;
-    border-radius: 1rem 1rem 0 0;
-}
-
-#spa {
-    background-image: url(Images/pexels-olly-3757657.jpg);
-    border-radius: 1rem;
-    max-width: 100%;
-}
-#spa figcaption {
-    background-color: black;
-    color: white;
-    opacity: 60%;
-    padding: 2rem;
-    border-radius: 1rem 1rem 0 0;
-}
-
-#chef {
-    background-image: url(Images/noz-thumb.jpg);
-    border-radius: 1rem;
-    max-width: 100%;
-}
-#chef figcaption {
-    background-color: black;
-    color: white;
-    opacity: 60%;
-    padding: 2rem;
-    border-radius: 1rem 1rem 0 0;
-}
-/*end*/
-
-
-@media  and (max-width: 750px) {
-    .paradise {
-        display: inline-grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-
-/*Second Section*/
-#luxury-rooms {
-    padding: 5rem 0 0 2rem;
-}
-#luxury {
-    padding: 2rem 2rem 5rem 2rem;
-    display: flex;
-}
-details {
-    padding-bottom: 1rem;
-}
-details summary{
-    background-color: #C39595;
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 1rem;
 }
 
 
@@ -226,6 +122,3 @@ footer{
         padding-top: 0;
     }
 }
-
-
-
