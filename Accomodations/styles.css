@@ -1,0 +1,39 @@
+header {
+    padding-bottom: 10rem;
+}
+
+figure{
+    padding: 5rem 1rem 0 1rem;
+}
+figcaption{
+    padding-left: 1rem;
+    margin: 2rem;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 1rem;
+}
+
+figure:last-of-type{
+    padding-bottom: 4rem;
+}
+
+button {
+    color: white;
+    background-color: #965A5B;
+    margin-top: 2rem;
+    padding: 1rem 4rem 1rem 4rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+@media screen and (min-width:751px) {
+    figure{
+        display: flex;
+    }
+    img{
+        max-width: 30%;
+        max-height: auto;
+}
