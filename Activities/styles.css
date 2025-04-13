@@ -1,12 +1,69 @@
-#on-site{
-    padding: 12rem 2rem 2rem 2rem;
+/*Every image*/
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
 
+
+/*On-site activities*/
+#on-site{
+    padding: 16rem 2rem 2rem 2rem;
+    font-size: 90%;
+}
+#on-site figure {
+    margin: 1rem 1rem 2rem 1rem;
+}
+#on-site img {
+    border-radius: 1rem;
+}
+#on-site figcaption {
+    padding-left: 2rem;
+}
+#on-site li {
+    padding-top: 1rem;
+}
+
+
+/*Local activities*/
 #local{
     background-color: rgb(116, 133, 158);
+    margin-top: 1rem;
     padding: 2rem;
+    font-size: 80%;
+}
+#local figure {
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+figcaption p {
+    font-weight: bold;
+    padding-top: 1rem;
+}
+#local ul {
+    padding: 1rem;
+    list-style-type: none;
+}
+#local li {
+    padding: 1rem;
 }
 
+
+/*Booking*/
 #booking {
-    padding: 2rem;
+    margin: 4rem 3rem 4rem 3rem;
+}
+
+
+/*Large screen*/
+@media screen and (min-width:751px) {
+    #on-site figure {
+        display: flex;
+    }
+    #local {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }

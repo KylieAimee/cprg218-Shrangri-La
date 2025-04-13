@@ -9,3 +9,12 @@ https://unsplash.com/photos/a-view-out-a-window-of-a-tropical-setting-FGGunjsjG6
 
 Plunge pool
 https://unsplash.com/photos/a-large-swimming-pool-with-lounge-chairs-around-it-hT33O9nisNI 
+
+Yoga 
+https://unsplash.com/photos/a-group-of-people-standing-on-top-of-a-beach-X-OZDHpjBwk
+
+kayaking
+https://unsplash.com/photos/selective-focus-photography-of-woman-riding-kayak-holding-oar-during-daytime-y3CAU_73jWk
+
+deep sea fishing
+https://unsplash.com/photos/people-riding-on-white-boat-during-daytime-_-PALv-NrN8
