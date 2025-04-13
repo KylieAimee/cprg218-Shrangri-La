@@ -1,84 +1,3 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
-
-
-/*apply to whole page*/
-body {
-    background-color: rgb(237, 248, 250);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-/*header*/
-header{
-    font-size: 120%;
-    color: white;
-    text-shadow: 1px 2px 0 black;
-    padding-left: 2rem;
-}
-#moments{
-    padding-left: 2rem;
-    padding-top: 15rem;
-}
-#hero {
-    background-image: url(Images/hero.png);
-    background-repeat: no-repeat;
-    height: auto;
-}
-#Logo {
-    max-width: 500px;
-    padding-top: 4rem;
-    padding-left: 4rem;
-}
-header{
-    color: rgb(31, 31, 41)
-    font-weight: 100;
-}
-#weather {
-    padding-top: 3rem;
-}
-
-/*nav bar*/
-
-ul {
-    display: flex;
-    justify-content: flex-end;
-    padding: 2rem 4rem 1rem 0;
-    list-style-type: none;
-    gap: 2rem;
-    text-shadow: 1px 2px 0 black;
-
-}
-ul a {
-    color: white;
-}
-a:link{
-    text-decoration: none;
-    color: white;
-}
-a:hover{
-    color: rgb(84, 168, 204);
-}
-
-button{
-    background: none;
-        border: none;
-        color: white;
-        font-size: 600%;
-        display: flex;
-        justify-content: flex-end;
-        margin-left: auto;
-        margin-right: 2rem;
-        display:none;
-        
-}
-button:focus{
-    color: rgb(84, 168, 204);
-}
-
-
 /*first section*/
 img{
     max-width: 100%;
@@ -95,7 +14,7 @@ figcaption {
 /*hero images*/
 #paradise {
     padding: 1rem;
-    display: inline-grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
 }
@@ -156,14 +75,6 @@ figcaption {
 /*end*/
 
 
-@media  and (max-width: 750px) {
-    .paradise {
-        display: inline-grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-
 /*Second Section*/
 #luxury-rooms {
     padding: 5rem 0 0 2rem;
@@ -182,50 +93,12 @@ details summary{
     border-radius: 1rem;
 }
 
-
-/*Footer*/
-footer{
-    background-color: #C39595;
-    color: rgb(255, 255, 255);
-    padding: 4rem;
+/*Small size*/
+@media  and (max-width: 750px) {
+    display: flex;
 }
 
 
-/*Small Screen*/
-@media screen and (max-width: 750px){
-    button{
-        display: block;
-    }
-    nav{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        z-index: 100;
-    
-        background-color: rgb(45, 43, 63);
-        flex-direction: column;
-    
-        display: none;
-    }
-    nav.active{
-        display: flex;
-        flex-direction: column;
-    }
-    nav li{
-        display: block;
-        text-align: center;
-        margin-right: 0;
-    }
-    nav li a{
-       display: block;
-       padding: 1rem;
-    }
-
-    #logo{
-        padding-top: 0;
-    }
-}
 
 
 

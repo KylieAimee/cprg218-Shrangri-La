@@ -34,8 +34,8 @@ button {
     figure{
         display: flex;
     }
-    img{
-        max-width: 30%;
-        max-height: auto;
+    img {
+        max-width: 400px;
+        max-height: 400px;
     }
 }

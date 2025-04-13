@@ -1,0 +1,31 @@
+#quotes {
+    padding-top: 18rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+figure {
+    padding: 2rem;
+    color: black;
+    background-color: rgb(237, 240, 243);
+    margin: 1rem;
+    border-radius: 1rem;
+    border: 2px solid rgb(235, 238, 241);
+}
+figure:last-of-type {
+    grid-column: span 2;
+}
+
+#comment {
+    padding: 6rem 3rem 6rem 3rem;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+/*Large screen*/
+@media screen and (min-width:751px) {
+    #quotes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

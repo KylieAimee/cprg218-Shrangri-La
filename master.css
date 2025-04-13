@@ -79,7 +79,12 @@ button:focus{
 footer{
     background-color: #C39595;
     color: rgb(255, 255, 255);
-    padding: 4rem;
+    padding: 3rem;
+}
+#copy-right {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 60%;
 }
 
 #comments{
