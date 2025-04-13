@@ -1,0 +1,28 @@
+#spa {
+    font-size: 80%;
+    padding-top: 14rem;
+}
+
+figure {
+    background-color: white;
+    border-top: 3px solid #C39595;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#spa img {
+    max-width: 150px;
+    max-height: 150px;
+    padding-bottom: 1rem;
+}
+
+/*Large screen*/
+@media screen and (min-width:751px) {
+    #spa {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    figure {
+        border-bottom: 3px solid #C39595;
+    }
+}

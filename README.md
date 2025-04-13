@@ -6,3 +6,6 @@ https://unsplash.com/photos/brown-wooden-chair-near-glass-window-vkpAxE0InJ0
 
 Garden view family room
 https://unsplash.com/photos/a-view-out-a-window-of-a-tropical-setting-FGGunjsjG6Y
+
+Plunge pool
+https://unsplash.com/photos/a-large-swimming-pool-with-lounge-chairs-around-it-hT33O9nisNI 
