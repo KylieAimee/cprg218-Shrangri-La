@@ -16,4 +16,5 @@ const menuList = document.getElementById('menu');
 
 navToggle.addEventListener('click', function(){
     menuList.classList.toggle('active');
+    console.log(data);
 });

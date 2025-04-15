@@ -66,16 +66,18 @@ button{
     background: none;
         border: none;
         color: white;
-        font-size: 600%;
+        font-size: 500%;
+        font-weight: bold;
         display: flex;
         justify-content: flex-end;
         margin-left: auto;
         margin-right: 2rem;
         display:none;
+        text-shadow: 2px 3px 0 black;
         
 }
-button:focus{
-    color: rgb(84, 168, 204);
+button:hover {
+    color: rgb(116, 133, 158);
 }
 
 
@@ -109,13 +111,15 @@ footer{
     }
     nav{
         position: absolute;
-        top: 100%;
+        top: 20%;
         left: 0;
         width: 100%;
         z-index: 100;
+
     
-        background-color: rgb(45, 43, 63);
+        background-color: #C39595;
         flex-direction: column;
+        padding: 5rem 0 5rem 0;
     
         display: none;
     }
@@ -132,6 +136,10 @@ footer{
        display: block;
        padding: 1rem;
     }
-    
+    #navigation {
+        display: block;
+        justify-content: flex-end;
+
+    }
 
 }
