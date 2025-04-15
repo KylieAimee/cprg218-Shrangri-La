@@ -25,6 +25,7 @@ header{
 #hero {
     background-image: url(Images/hero.png);
     background-repeat: no-repeat;
+    max-width: 100%;
     height: auto;
 }
 #Logo {
