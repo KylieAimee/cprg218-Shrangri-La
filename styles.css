@@ -15,7 +15,7 @@ figcaption {
 #paradise {
     padding: 1rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
 #white-beach{
@@ -37,7 +37,8 @@ figcaption {
 #pool {
     background-image: url(Images/architecture-blue-water-buildings-261102.jpg);
     border-radius: 1rem;
-    max-width: 100%;
+    max-width: 500px;
+    height: 300px;
 }
 #pool figcaption{
     background-color: black;
@@ -50,7 +51,8 @@ figcaption {
 #spa {
     background-image: url(Images/pexels-olly-3757657.jpg);
     border-radius: 1rem;
-    max-width: 100%;
+    max-width: 500px;
+    height: 300px;
 }
 #spa figcaption {
     background-color: black;
@@ -63,7 +65,8 @@ figcaption {
 #chef {
     background-image: url(Images/noz-thumb.jpg);
     border-radius: 1rem;
-    max-width: 100%;
+    max-width: 500px;
+    height: 300px;
 }
 #chef figcaption {
     background-color: black;
@@ -81,21 +84,38 @@ figcaption {
 }
 #luxury {
     padding: 2rem 2rem 5rem 2rem;
-    display: flex;
 }
 details {
     padding-bottom: 1rem;
+    background-color: rgb(217, 222, 230);
+    margin-bottom: 1rem;
+    border-radius: 1rem 1rem 0 0;
 }
 details summary{
     background-color: #C39595;
-    margin: 1rem;
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 1rem 1rem 0 0;
+}
+#luxury img {
+    padding: 2rem 2rem 0 2rem;
+}
+#luxury p {
+    padding: 1rem 2rem 0 2rem;
+    font-size: 110%;
+}
+#luxury a {
+    padding: 1rem 2rem 0 2rem;
+    color: white;
+    font-weight: bold;
+    font-size: 110%;
 }
 
-/*Small size*/
-@media  and (max-width: 750px) {
-    display: flex;
+/*Big size*/
+@media screen and (min-width: 751px) {
+    #paradise {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 

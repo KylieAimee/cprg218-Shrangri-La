@@ -1,3 +1,8 @@
+html by Kylie Farrell
+css by Kylie Farrell
+Js by Kylie Farrell
+spa page art by Kylie Farrell
+
 beach front suite Jet Kim Unsplash
 https://unsplash.com/photos/white-sheer-curtain-on-window-DlunpYInIug
 
@@ -18,3 +23,6 @@ https://unsplash.com/photos/selective-focus-photography-of-woman-riding-kayak-ho
 
 deep sea fishing
 https://unsplash.com/photos/people-riding-on-white-boat-during-daytime-_-PALv-NrN8
+
+poolside cafe
+https://unsplash.com/photos/a-bench-sits-under-an-umbrella-gFsEG4MCgcQ 

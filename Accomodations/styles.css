@@ -20,7 +20,7 @@ figure:last-of-type{
     padding-bottom: 4rem;
 }
 
-button {
+#book-now {
     color: white;
     background-color: #965A5B;
     margin-top: 2rem;
