@@ -1,7 +1,7 @@
 /*Every image*/
 img {
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
     height: auto;
 }
 
@@ -59,11 +59,11 @@ figcaption p {
 
 /*Large screen*/
 @media screen and (min-width:751px) {
-    #on-site figure {
-        display: flex;
-    }
     #local {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    #on-site figure {
+        display: flex;
     }
 }
